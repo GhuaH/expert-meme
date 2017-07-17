@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>微信飞机</title>
+		<link rel="stylesheet" href="app.css" media="all" />
+		<script src="app.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div id="p0" class="page">
+				<div id="loading">0%</div>
+			</div>
+
+			<div id="p1" class="page">
+				<button id="btnStart">开始游戏</button>
+			</div>
+
+			<div id="p2" class="page">
+				<div id="box"></div>
+				
+				<div id="touch"></div>
+				
+				<div class="score">
+					分数：<span id="point">0</span>
+				</div>
+				
+				<div id="pop">
+					<h2>飞机大战</h2>
+					<p id="show">100</p>
+					<button onclick="game.reset()">再完一次</button>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
